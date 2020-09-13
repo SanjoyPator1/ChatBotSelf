@@ -1,6 +1,6 @@
 Flask==1.1.2
 nltk==3.5
-tensorflow-cpu
+tensorflow-cpu==2.3.0
 numpy==1.16.0
 keras==2.4.3
 gunicorn==20.0.4
