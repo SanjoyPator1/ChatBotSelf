@@ -15,7 +15,7 @@ Keras-Preprocessing==1.1.0
 MarkupSafe==1.1.1
 mkl-fft
 mkl-random
-mkl-service==2.3.0
+mkl-service
 oauthlib==3.1.0
 opt-einsum==3.1.0
 protobuf==3.12.4
