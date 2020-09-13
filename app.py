@@ -98,7 +98,10 @@ def hello_name(name):
     #get the response from the ML model & dec_msg as the argument
     response = chatbot_response(dec_msg)
     
-    return response 
+    #creating a json object
+    json_obj = jsonify({"res" : response})
+    
+    return json_obj
 
 
 
