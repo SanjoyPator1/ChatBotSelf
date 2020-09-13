@@ -16,6 +16,7 @@ MarkupSafe==1.1.1
 mkl-fft
 mkl-random
 mkl-service
+nltk>=3.4.5
 oauthlib==3.1.0
 opt-einsum==3.1.0
 protobuf==3.12.4
@@ -33,3 +34,4 @@ termcolor==1.1.0
 Werkzeug==1.0.1
 wrapt==1.12.1
 zipp==3.1.0
+
