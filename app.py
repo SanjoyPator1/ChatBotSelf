@@ -73,7 +73,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return jsonify({"about" : "Hello World !"})
+    return <h> home page </h>
 
 #function to replace '+' character with ' ' spaces
 def decrypt(msg):
