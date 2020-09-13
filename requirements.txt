@@ -2,54 +2,34 @@ absl-py==0.9.0
 astunparse==1.6.3
 blinker==1.4
 brotlipy==0.7.0
-cachetools @ file:///tmp/build/80754af9/cachetools_1596822027882/work
 certifi==2020.6.20
-cffi @ file:///tmp/build/80754af9/cffi_1598370769933/work
 chardet==3.0.4
 click==7.1.2
-cryptography @ file:///tmp/build/80754af9/cryptography_1598892038851/work
 Flask==1.1.2
 gast==0.3.3
-google-auth @ file:///tmp/build/80754af9/google-auth_1599595709135/work
 google-auth-oauthlib==0.4.1
 google-pasta==0.2.0
-grpcio @ file:///tmp/build/80754af9/grpcio_1597424474635/work
-h5py @ file:///tmp/build/80754af9/h5py_1593454122442/work
-idna @ file:///tmp/build/80754af9/idna_1593446292537/work
-importlib-metadata @ file:///tmp/build/80754af9/importlib-metadata_1593446406207/work
 itsdangerous==1.1.0
 Jinja2==2.11.2
-joblib @ file:///tmp/build/80754af9/joblib_1594236160679/work
 Keras-Preprocessing==1.1.0
-Markdown @ file:///tmp/build/80754af9/markdown_1597433240441/work
 MarkupSafe==1.1.1
 mkl-fft==1.1.0
 mkl-random==1.1.1
 mkl-service==2.3.0
-nltk @ file:///tmp/build/80754af9/nltk_1592496090529/work
-numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1596233721170/work
 oauthlib==3.1.0
 opt-einsum==3.1.0
 protobuf==3.12.4
 pyasn1==0.4.8
 pyasn1-modules==0.2.7
-pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
 PyJWT==1.7.1
-pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1594392929924/work
 PySocks==1.7.1
-regex @ file:///tmp/build/80754af9/regex_1596829684054/work
-requests @ file:///tmp/build/80754af9/requests_1592841827918/work
 requests-oauthlib==1.3.0
-rsa @ file:///tmp/build/80754af9/rsa_1596998415516/work
-scipy @ file:///tmp/build/80754af9/scipy_1597686649129/work
 six==1.15.0
 tensorboard==2.2.1
 tensorboard-plugin-wit==1.6.0
 tensorflow==2.2.0
 tensorflow-estimator==2.2.0
 termcolor==1.1.0
-tqdm @ file:///tmp/build/80754af9/tqdm_1596810128862/work
-urllib3 @ file:///tmp/build/80754af9/urllib3_1597086586889/work
 Werkzeug==1.0.1
 wrapt==1.12.1
 zipp==3.1.0
