@@ -99,7 +99,7 @@ def hello_name(name):
     response = chatbot_response(dec_msg)
     
     #creating a json object
-    json_obj = jsonify({"res" : response})
+    json_obj = jsonify({"top" : {"res" : response}})
     
     return json_obj
 
