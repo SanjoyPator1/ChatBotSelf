@@ -927,8 +927,2299 @@
                 "I failed again and again during my training. So that I can do better now. lol heeheee"
             ],
             "context": [""]
-        }
+        },
+		{"tag": "kernel SVM",
+         "patterns": ["defnition of kernel SVM", "what do you mean by kernel SVM", "what is the meaning of kernel SVM","kernel SVM"],
+         "responses": ["Kernel SVM is the abbreviated version of kernel support vector of machine. Kernel methods are a class of algorithms for pattern analysis and the most common one of the kernel SVM."],
+         "context": [""]
+        },
+	{"tag": "Recommended Systems",
+         "patterns": ["defnition of Recommended Systems", "what do you mean by Recommended Systems", "what is the meaning of Recommended Systems","Recommended Systems"],
+         "responses": ["Recommended Systems is a sub directory of information filtering systems, which predicts the preference or rankings offered by a user to a product. Recommendations are widely used in movies, news, research articles, products, social tips, music, etc."],
+         "context": [""]
+        },
+	{"tag": "Overfitting in laymen term",
+         "patterns": ["defnition of Overfitting in laymen term", "what do you mean by Overfitting in laymen term", "what is the meaning of Overfitting in laymen term","Overfitting in laymen term"],
+         "responses": ["Overfitting is a problem occurred when we have low error in the training set. But produces high error in test or unseen data."],
+         "context": [""]
+        },
+	{"tag": "Underfitting in laymen term",
+         "patterns": ["defnition of Underfitting in laymen term", "what do you mean by Underfitting in laymen term", "what is the meaning of Underfitting in laymen term","Underfitting in laymen term"],
+         "responses": ["Underfitting is a problem, when we have low error in both training set and the testing set. Few algorithms works better for interpretations. But fails for better predictions."],
+         "context": [""]
+        },
+	{"tag": "Curse of dimensionality",
+         "patterns": ["defnition of Curse of dimensionality", "what do you mean by Curse of dimensionality", "what is the meaning of Curse of dimensionality","Curse of dimensionality"],
+         "responses": ["COD is state which is commonly referred to lack of intuitive understanding of multiple dimensions. If a user wants to produce better understanding on data COD will make limitations."],
+         "context": [""]
+        },
+	{"tag": "data normalization",
+         "patterns": ["defnition of data normalization", "what do you mean by data normalization", "what is the meaning of data normalization","data normalization"],
+         "responses": ["Data normalization is a common practice to get the data features weighted equally. It causes to lose data interpretability."],
+         "context": [""]
+        },
+	{"tag": "clustering in short",
+         "patterns": ["defnition of clustering in short", "what do you mean by clustering in short", "what is the meaning of clustering in short","clustering in short"],
+         "responses": ["Clustering technique is a segmentation process. It works whenever we don’t have the target variable and still wanted to have a groups created."],
+         "context": [""]
+        },
+	{"tag": "EDA",
+         "patterns": ["defnition of EDA", "what do you mean by EDA", "what is the meaning of EDA","EDA"],
+         "responses": ["EDA which refers to Exploratory Data Analysis is a process to understand the data prior getting it into machine learning pipeline."],
+         "context": [""]
+        },
+	{"tag": "avoid Bias",
+         "patterns": ["avoid Bias", "how to avoid Bias", "avoiding Bias"],
+         "responses": ["Bias can cause to feel or show inclination or prejudice for or against someone or something. Avoiding bias in machine learning is very important, and the last thing we would want is to create a model which will most of the times/always classify a non-defective product as a defective one."],
+         "context": [""]
+        },
+	{"tag": "Z Score",
+         "patterns": ["defnition of Z Score", "what do you mean by Z Score", "what is the meaning of Z Score","Z Score"],
+         "responses": ["The z-score is the standard distortion count from a data point on average. But technically this is a source of how many constant changes are above or above the population. A z-score is known as a fixed value and can be placed in a normal distribution ramp. It eliminates values from the database that are lower than Z times 3 times."],
+         "context": [""]
+        },
+	{"tag": "odds ratio",
+         "patterns": ["defnition of odds ratio", "what do you mean by odds ratio", "what is the meaning of odds ratio","odds ratio"],
+         "responses": ["The odds ratio is the odds within two groups. For example, let’s pretend that we are trying to determine the effectiveness of medicine. We administered the medication to the ‘intervention’ organization and a position to the ‘control’ group."],
+         "context": [""]
+        },
+	{"tag": "classification problems",
+         "patterns": ["Why is accuracy not a good model for classification problems", "classification problems"],
+         "responses": ["Accuracy is not a good basis for distribution problems because it provides equal significant value to both false positives and false negatives dataset value. Accuracy provides equal quality to both cases and cannot distinguish between them."],
+         "context": [""]
+        },
+	{"tag": "trade-off between accuracy and interpretability",
+         "patterns": ["compromise between accuracy and interpretability", "trade-off between accuracy and interpretability"],
+         "responses": ["There needs to be a trade-off between accuracy and interpretability. Neural networks spit out the best possible result, and we can’t ignore that just because we don’t understand the internal functioning of the model."],
+         "context": [""]
+        },
+	{"tag": "missing data",
+         "patterns": ["missing data", "Is missing data is just blanks", "Is blanks is just missing data","does blanks is just missing data"],
+         "responses": ["No. Not only the blanks, data points which has NA, NULL and also sometimes the corrupted data that has been recorded by mistake or given improper data by purpose."],
+         "context": [""]
+        },
+	{"tag": "gradient descent methods converge",
+         "patterns": ["gradient descent methods converge", "do gradient descent methods converge to same point"],
+         "responses": ["No, they do not because in some cases it reaches an local minima or a local optima points. You don’t reach to the global optima point. It depends on the data and starting the conditions."],
+         "context": [""]
+        },
+		{
+			"tag": "methods of moments",
+			"patterns": 
+			[
+				"what is method of moments",
+				"what do you mean by method of moments",
+				"define method of moments"
+			],
+			"responses": 
+			[
+				"One of the statistical approaches for unsupervised learning is the method of moments. In the method of moments, the unknown parameters (of interest) in the model are related to the moments of one or more random variables, and thus, these unknown parameters can be estimated given the moments. The moments are usually estimated from samples empirically. The basic moments are first and second order moments. For a random vector, the first order moment is the mean vector, and the second order moment is the covariance matrix (when the mean is zero). Higher order moments are usually represented using tensors which are the generalization of matrices to higher orders as multi-dimensional arrays."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "Face Clustering Pipeline",
+			"patterns": 
+			[
+				"what is unsupervised face clustering pipeline",
+				"what do you mean by uinsupervised face clustering pipeline",
+				"define unsupervised face clustering pipeline"
+			],
+			"responses": 
+			[
+				"Live face-recognition is a problem that automated security division still face. To train a supervised model, we need to get datasets of our target labels which is still a tedious task. So, Unsupervised Face Clustering pipeline is a dataset generation pipeline which takes a video clip as source and extracts all the faces and clusters them to limited and accurate sets of images representing a distinct person. Each set can easily be labeled by human input with ease."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "working of unsupervised face clustering pipeline",
+			"patterns": 
+			[
+				" explain the working of Unsupervised Face Clustering Pipeline",
+				" How does unsupervised face clustering pipeline works",
+				" what is the use of unsupervised face clustering pipeline"
+			],
+			"responses": 
+			[
+				"It uses opencv lib for per second frames extraction from input video clip. Then it will use face_recognition library (backed by dlib) for extracting the faces from the frames and align them for feature extractions.After that it extracts the human observable features and cluster them using DBSCAN clustering provided by scikit-learn. For the solution, it crops out all the faces, create labels and group them in folders for users to adapt them as a dataset for their training use-cases."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "python3 modules to implement unsupervised face clustering pipeline",
+			"patterns": 
+			[
+				" what are the required python modules for implementing unsupervised face clustering pipeline",
+				" name the modules required for the implementation of unsupervised face clustering",
+				" what are some of the modules required for usupervised face  clustering pipeline"
+			],
+			"responses": 
+			[
+				"OS, CV2, NUMPY, TENSORFLOW, JSON, Regular Expression, SHUTIL, TIME, PICKLE,PYPIPER, TQDM, IMUTILS ,FACE_RECOGNITION, DLIB, SKLEARN, Warning"
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "face clustering and its realtion  unsupervised learning",
+			"patterns": 
+			[
+				"what is face clutering",
+				"how face clustering works",
+				"what do you mean by face clustering",
+				"define face clustering and its realtion wih unsupervsied learning",
+				"how face clustering and unsupervised learning is realted",
+				"What is Face Clustering and how it is related to Unsupervised Learning"
+			],
+			"responses": 
+			[
+				"In face clustering we need to perform unsupervised learning we have only the faces themselves with no names/labels. From there we need to identify and count the number of unique people in a dataset."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "exclusive clustering",
+			"patterns": 
+			[
+				"what is exlclusive clustering",
+				"what do you mean by exlclusive clustering",
+				"define exlclusive clustering"
+			],
+			"responses": 
+			[
+				"In this clustering method, Data are grouped in such a way that one data can belong to one cluster only."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "overlapping clustering",
+			"patterns": 
+			[
+				"what is overlapping clustering",
+				"what do you mean by overlapping clustering",
+				"define overlapping clustering"
+			],
+			"responses": 
+			[
+				"    In this technique, fuzzy sets are used to cluster data. Each point may   belong to two or more clusters with separate degrees of membership. Here, data will be associated with an appropriate membership value. Example: Fuzzy C-Means"
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "probabilistic clustering",
+			"patterns": 
+			[
+				"What is Probabilistic Clustering",
+				"define probabilistic clustering",
+				"what do you mean by probabilistic clustering"
+			],
+			"responses": 
+			[
+				"This technique uses probability distribution to create the clusters Example: Following keywords: Man’s shoe., Women’s shoe.Women’s glove.Man’s glove. can be clustered into two categories shoe and glove or man and women."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "Fzzy c-Means",
+			"patterns": 
+			[
+				"what is fcm",
+				"what is fuzzy c-means",
+				"define fcm",
+				"what do you mean by fuzzy c-means"
+			],
+			"responses": 
+			[
+				"Fuzzy c-means (FCM) is a method of clustering which allows one piece of data to belong to two or more clusters. This method (developed by Dunn in 1973 and improved by Bezdek in 1981) is frequently used in pattern recognition."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "FCM algorithm",
+			"patterns": 
+			[
+				"Explain the fcm algorithm",
+				"working of fcm algorithm",
+				"how does fcm algorithm works"
+			],
+			"responses": 
+			[
+				"The fuzzy c-means algorithm is very similar to the k-means algorithm:The FCM algorithm attempts to partition a finite collection of n elements x={x1. . . . . . .xn}  into a collection of c fuzzy clusters with respect to some given criterion.Given a finite set of data, the algorithm returns a list of c cluster centres, c= {c1. . . . cn }and a partition matrix, W= Wij ∈ [0,1] , i=1, . . . ,n, j=1, . . . . , c  where each element, Wij, tells the degree to which element , Xi , belongs to cluster Cj"
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "comparison between K-Means and FCM clustering",
+			"patterns": 
+			[
+				"compare k-means and fcm clustering",
+				"difference between k-means and fcm clustering",
+				"k-means vs fcm clsutering",
+				"what are the differences between fcm and k-means clustering"
+			],
+			"responses": 
+			[
+				"K-means clustering also attempts to minimize the objective function. This method differs from the k-means objective function by the addition of the membership values Wij  and the fuzzifier, m ∈ r  , with m>=1. The fuzzifier  m determines the level of cluster fuzziness. A large m results in smaller membership values, Wij , and hence, fuzzier clusters. In the limit  m=1, the memberships, Wij , converge to 0 or 1, which implies a crisp partitioning. In the absence of experimentation or domain knowledge,  m is commonly set to 2. The algorithm minimizes intra-cluster variance as well, but has the same problems as 'k'-means; the minimum is a local minimum, and the results depend on the initial choice of weights."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "applications of association rules",
+			"patterns": 
+			[
+				"Mention some applications of association rules",
+				"what are some of the applications of association rules",
+				"mention some areas where association rules can be used"
+			],
+			"responses": 
+			[
+				"They are commonly used for Market Basket Analysis (which items are bought together), Customer clustering in Retail (Which stores people tend to visit together), Price Bundling, Assortment Decisions, Cross Selling and others."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "terms related to association rules",
+			"patterns": 
+			[
+				"mention some of the key terms related to association rules",
+				"terminologies related to association rules",
+				"what are some of the key words related to association rules",
+				"what are some of the key terms related to association rules"
+			],
+			"responses": 
+			[
+				"1.)itemsets: It refers to the collection of items. N item set means set of n items. Simply, it is the set of item purchased by customers. 2.)Support: It is percentage of time X and Y occur together out of all transaction.((Frequency of X and Y) / (Total # of records)) 3.)Confidence: It is defined as measure of certainty associated with each discovered rule. It is percent of transactions that contains both X and Y out of all transaction that contains X(Frequency of X and Y) / (Frequency of X) 4.)Lift: It is measure of how X and Y are related rather than coincidentally happening together. It measures how many times more often X and Y occur together then expected if they are statistically independent to each other. This measure will be our main focus when evaluating the algorithm results. Lift (X => Y) = Confidence(X => Y) / Support(Y) 5.)Minlen: the minimum number of items in the rule 6.)Maxlen: the maximum number of items in the rule 7.)Target: indicates the type of association mined Frequent Itemsets Generation: Find the most frequent itemsets from the data based on predetermined support and minimum item and maximum item 8.)Rule Generation: This step involves generating all the rules from frequent item sets. We can control the number of rules generated by controlling support, confidence or lift. 9.)LHS > RHS: Left hand side and Right-hand side are usually used to understand how often item A and item B occur together. If we are trying to understand how often people go to store A after going to store B. Store A would be LHS and store B would be RHS. Similarly, If we are trying to understand which stores people usually go to before going to store A, Store A would be on RHS and other stores would be on LHS."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "algorithms for association rule generation",
+			"patterns": 
+			[
+				"what are the algorithms for association rule generation",
+				"mention some of the algorithms for generating association rule ",
+				"name some algorithms to generate association rule"
+			],
+			"responses": 
+			[
+				"1.)Apriori algorithm 2.)Eclat algorithm FP(Frequent Pattern) 3.)Growth algorithm"
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "FP growth algorithm",
+			"patterns": 
+			[
+				"Explain the fp growth algorithm",
+				"how does fp growth algorithm works",
+				"explain the working of fp growth algorithm"
+			],
+			"responses": 
+			[
+				"fp growth stands for frequent pattren growth. This algorithm was proposed by Han, works as follows: first it compresses the input database creating an FP-tree instance to represent frequent items. After this first step it divides the compressed database into a set of conditional databases, each one associated with one frequent pattern. Finally, each such database is mined separately. Using this strategy, the FP-Growth reduces the search costs looking for short patterns recursively and then concatenating them in the long frequent patterns, offering good selectivity."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "FP tree structure by Han",
+			"patterns": 
+			[
+				"explain the fp tree structure given by han",
+				"explain the han's tree structure for fp tree",
+				"explain the structure of fp tree given by han",
+				"how is the structure of fp tree given by han"
+			],
+			"responses": 
+			[
+				" The frequent-pattern tree (FP-tree) is a compact structure that stores quantitative information about frequent patterns in a database. Han defines the FP-tree as the tree structure io below:1.)One root labeled as “null” with a set of item-prefix subtrees as children, and a frequent-item-header table. 2.)Each node in the item-prefix subtree consists of three fields: i.)Item-name: registers which item is represented by the node; ii.)Count: the number of transactions represented by the portion of the path reaching the node; iii.)Node-link: links to the next node in the FP-tree carrying the same item-name, or null if there is none. 3.)Each entry in the frequent-item-header table consists of two fields: i.)Item-name: as the same to the node; ii.)Head of node-link: a pointer to the first node in the FP-tree carrying the item-name."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "algorithm for building a fp tree",
+			"patterns": 
+			[
+				"explain the first phase of fp growth algorithm",
+				"explain the algorithm for building a fp tree",
+				"algorithm to build a fp tree",
+				"how fp tree can be built"
+			],
+			"responses": 
+			[
+				"The first phase of this algorithm includes building the fp-tree. The algorithm for constructing the tree is as follows:Input: A transaction database DB and a minimum support threshold ?. Output: FP-tree, the frequent-pattern tree of DB. Method: The FP-tree is constructed as follows. 1.Scan the transaction database DB once. Collect F, the set of frequent items, and the support of each frequent item. Sort F in support-descending order as FList, the list of frequent items. 2.Create the root of an FP-tree, T, and label it as “null”. For each transaction Trans in DB do the following:i.)Select the frequent items in Trans and sort them according to the order of FList. Let the sorted frequent-item list in Trans be [ p | P], where p is the first element and P is the remaining list. Call insert tree([ p | P], T ). ii.)The function insert tree([ p | P], T ) is performed as follows. If T has a child N such that N.item-name = p.item-name, then increment N ’s count by 1; else create a new node N , with its count initialized to 1, its parent link linked to T , and its node-link linked to the nodes with the same item-name via the node-link structure. If P is nonempty, call insert tree(P, N ) recursively"
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "algorithm for mining a fp tree",
+			"patterns": 
+			[
+				"explain the second phase of the fp growth algorithm",
+				"explain the algorithm to find the complete set of frequent patterns"
+			],
+			"responses": 
+			[
+				"After constructing the FP-Tree it’s possible to mine it to find the complete set of frequent patterns. To accomplish this job, Han in  presents a group of lemmas and properties, and thereafter describes the FP-Growth Algorithm as presented below: Input: A database DB, represented by FP-tree constructed according to the first phase of the Algorithm , and a minimum support threshold ?. Output: The complete set of frequent patterns.Method: call FP-growth(FP-tree, null).Procedure FP-growth(Tree, a) (01)  if Tree contains a single prefix path then;  // Mining single prefix-path FP-tree (02)  let P be the single prefix-path part of Tree; (03)  let Q be the multipath part with the top branching node replaced by a NULL root; (04)  for each combination (denoted as ß) of the nodes in the path P do(05) generate pattern ß ∪ a with support = minimum support of nodes in ß;(06)  let freq pattern set(P) be the set of patterns so generated; (07)  else let Q be Tree; (08)  for each item ai in Q do  (09)  generate pattern ß = ai ∪ a with support = ai .support;(10)  construct ß’s conditional pattern-base and then ß’s conditional FP-tree Tree ß;(11)  If Tree ß ≠ Ø then(12)  call FP-growth(Tree ß , ß); (13)  let freq pattern set(Q) be the set of patterns so generated;(14) return(freq pattern set(P) ∪ freq pattern set(Q) ∪ (freq pattern set(P) × freq pattern set(Q)))"
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "Apriori algorithm",
+			"patterns": 
+			[
+				"give an overview of apriori algorithm",
+				"explain the apriori algorithm",
+				"briefly explain the apriori algorithm",
+				"what is apriori algorithm"
+			],
+			"responses": 
+			[
+				"Apriori is an algorithm for frequent item set mining and association rule learning over relational databases. It proceeds by identifying the frequent individual items in the database and extending them to larger and larger item sets as long as those item sets appear sufficiently often in the database. this has applications in domains such as market basket analysis.The Apriori algorithm was proposed by Agrawal and Srikant in 1994. Apriori is designed to operate on databases containing transactions. Each transaction is seen as a set of items (an itemset). Given a threshold C , the Apriori algorithm identifies the item sets which are subsets of at least C  transactions in the database."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "working of apriori algorithm",
+			"patterns": 
+			[
+				"explain the working of apriori algorithm",
+				"how does the apriori algorithm works",
+				"explain the steps to be taken to implement the apriori algorithm"
+			],
+			"rewsponses": 
+			[
+				"Apriori uses a bottom up approach, where frequent subsets are extended one item at a time (a step known as candidate generation), and groups of candidates are tested against the data. The algorithm terminates when no further successful extensions are found. Apriori uses breadth-first search and a Hash tree structure to count candidate item sets efficiently. It generates candidate item sets of length k from item sets of length k-1. Then it prunes the candidates which have an infrequent sub pattern. According to the downward closure lemma, the candidate set contains all frequent k-length item sets. After that, it scans the transaction database to determine frequent item sets among the candidates."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "limitations of apriori algorithm",
+			"patterns": 
+			[
+				"Mention some limitations of Apriori algorithm",
+				"what are the limitations of apriori algorithm",
+				"what are the diadvantages of apriori algorithm"
+			],
+			"responses": 
+			[
+				"1.Candidate generation generates large numbers of subsets (The algorithm attempts to load up the candidate set, with as many as possible subsets before each scan of the database). Bottom-up subset exploration (essentially a breadth-first traversal of the subset lattice) finds any maximal subset S only after all  2| s | - 1 of its proper subsets. 2.The algorithm scans the database too many times, which reduces the overall performance. Due to this, the algorithm assumes that the database is Permanent in the memory. 3.the time and space complexity of this algorithm are very high: O(2| D |), thus exponential, where |D| is the horizontal width (the total number of items) present in the database"
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "ECLAT algorithm",
+			"patterns": 
+			[
+				"what is eclat algorithm",
+				"overview of eclat algorithm",
+				"give a brief idea about eclat algorithm"
+			],
+			"responses": 
+			[
+				"The ECLAT algorithm stands for Equivalence Class Clustering and  bottom-up Lattice Traversal. It is one of the popular methods of Association Rule mining. It is a more efficient and scalable version of the Apriori algorithm. While the Apriori algorithm works in a horizontal sense imitating the Breadth-First Search of a graph, the ECLAT algorithm works in a vertical manner just like the Depth-First Search of a graph. This vertical approach of the ECLAT algorithm makes it a faster algorithm than the Apriori algorithm."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "working of eclat algorithm",
+			"patterns": 
+			[
+				"explain the working of eclat algorithm",
+				"how does the eclat algorithm works",
+				"explain the working principle behind the eclat algorithm"
+			],
+			"responses": 
+			[
+				"The basic idea is to use Transaction Id Sets(tidsets) intersections to compute the support value of a candidate and avoiding the generation of subsets which do not exist in the prefix tree. In the first call of the function, all single items are used along with their tidsets. Then the function is called recursively and in each recursive call, each item-tidset pair is verified and combined with other item-tidset pairs. This process is continued until no candidate item-tidset pairs can be combined."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "advanatges of eclat algorithm",
+			"patterns": 
+			[
+				"what are the advantages of using eclat algorithm",
+				"mention some good results on using eclat algorithm",
+				"why eclat algorithm is used over apriori algorithm"
+			],
+			"responses": 
+			[
+				"1.Memory Requirements: Since the ECLAT algorithm uses a Depth-First Search approach, it uses less memory than Apriori algorithm. 2.Speed: The ECLAT algorithm is typically faster than the Apriori algorithm. 3.Number of Computations: The ECLAT algorithm does not involve the repeated scanning of the data to compute the individual support values."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "detection of fake users using unsupervised learning",
+			"patterns": 
+			[
+				"what are the methods of unsupervised learning that helps in detecting fake users",
+				"how unsupervised learning can be used to detect fake users",
+				"how the application of unsupervised learning helps in detecting fake users",
+				"how unsupervised learning can be apllied to detetc fake users"
+			],
+			"responses": 
+			[
+				"Methods like Artificial Neural Networks, General adversarial networks (GANs), Deep belief Nets (DBN) of unsupervised learning can be used to detect fake users on a platform."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+					"tag":"reinforcement learning",
+					"patterns":[
+									"what is reinforcement learning",
+									"what do you mean by reinforcemnet learning",
+									"define reinforcement learning"
+								],
+					"responses":[
+"Reinforcement Learning(RL) is a type of machine learning technique that enables an agent to learn in an interactive environment by trial and error using feedback from its own actions and experiences. "
+								],
+					"context":[
+								""
+							   ]
+				},
+				{
+					"tag":"relation between reinforcement learning and machine learning",
+					"patterns":[
+									"how machine learning and reinforcement learning are connected",
+									"what is the realtion between reinforcement learning techniques and machine learning",
+									"how reinforcement learning and machine learning are related to each other"
+								],
+					"responses":[
+"Though both supervised and reinforcement learning use mapping between input and output, unlike supervised learning where feedback provided to the agent is correct set of actions for performing a task, reinforcement learning uses rewards and punishment as signals for positive and negative behavior. As compared to unsupervised learning, reinforcement learning is different in terms of goals. While the goal in unsupervised learning is to find similarities and differences between data points, in reinforcement learning the goal is to find a suitable action model that would maximize the total cumulative reward of the agent."
+								],
+				     "context":[
+									""
+								]
+				},
+				{
+					"tag":"key terms realted to reinforcement learning",
+					"patterns":[
+									"mention some key terms realted to reinforcement learning problem",
+									"what are the general key terms realted to reinforcement learning problems",
+									"name some of the key terms realted to reinforcement learning problems"
+								],
+					"responses":[
+"1.)Environment​: Physical world in which the agent operates 2.)State​: Current situation of the agent 3.)Reward​: Feedback from the environment 4.)Policy​: Method to map agent’s state to actions Value​: Future reward that an agent would receive by taking an action in a particular state."
+								],
+					"context":[
+								""
+							   ]
+				},
+				{
+					"tag":"formulation of a reinforcement problem",
+					"patterns":[
+									"How to formulate a basic reinforcement Learning problem",
+									"how to construct the solution of a reinforcement learning",
+									"how to build a optimal solution for a reinforcement learning problem"
+								],
+					"responses":[
+"A Reinforcement Learning problem can be best explained through games. Let’s take the game of PacMan where the goal of the agent (PacMan) is to eat the food in the grid while avoiding the ghosts on its way. The grid world is the interactive environment for the agent. PacMan receives a reward for eating food and punishment if it gets killed by the ghost (loses the game). The states are the location of PacMan in the grid world and the total cumulative reward is PacMan winning the game. In order to build an optimal policy, the agent faces the dilemma of exploring new states while maximizing its reward at the same time. This is called ​Exploration vs Exploitation trade-off​. Markov Decision Processes (MDPs)​ are mathematical frameworks to describe an environment in reinforcement learning and almost all RL problems can be formalized using MDPs.  An MDP consists of a set of finite environment states S, a set of possible actions A(s) in each state, a real valued reward function R(s) and a transition model P(s’, s | a). However, real world environments are more likely to lack any prior knowledge of environment dynamics. Model-free RL methods come handy in such cases. Q-learning​ is a commonly used model free approach which can be used for building a self-playing PacMan agent. It revolves around the notion of updating Q values which denotes value of doing action ​a in state ​s ​ . The value update rule is the core of the Q-learning algorithm."
+								],
+					"context":[
+									""
+							  ]
+				},
+				{
+					"tag":"reinforcement learning algorithms",
+					"patterns":[
+									"what are some of the most used reinforcement learning algorithms",
+									"name some prefferd algorithms of reinforcement learning",
+									" What are some most used Reinforcement Learning algorithms"
+								],
+					"responses":[
+"Q-learning and SARSA (State-Action-Reward-State-Action) are two commonly used model-free RL algorithms. They differ in terms of their exploration strategies while their exploitation strategies are similar. While Q-learning is an off-policy method in which the agent learns the value based on action a* derived from the another policy, SARSA is an on-policy method where it learns the value based on its current action ​a ​ derived from its current policy. These two methods are simple to implement but lack generality as they do not have the ability to estimate values for unseen states. This can be overcome by more advanced algorithms such as ​Deep Q-Networks​ which use Neural Networks to estimate Q-values. But DQNs can only handle discrete, low-dimensional action spaces. DDPG(Deep Deterministic Policy Gradient)​is a model-free, off-policy, actor-critic algorithm that tackles this problem by learning policies in high dimensional, continuous action spaces. "
+								],
+					"context":[
+									""
+							   ]
+				},
+				{
+					"tag":"applications of reinforcement learning",
+					"patterns":[
+									"what are some of the most practical applications of reinforcement learning",
+									"name some areas where reinforcement learning can be used",
+									"what are some of the fields where we can use reinforcement learning" 
+								],
+					"responses":[
 
-
+	"RL is quite widely used in building AI for playing computer games. ​AlphaGo Zero​ is the first computer program to defeat a world champion in the ancient Chinese game of Go. Others include ATARI games, Backgammon, etc In robotics and industrial automation,RL is used to enable the robot to create an efficient adaptive control system for itself which learns from its own experience and behavior.​DeepMind’s work​ on Deep Reinforcement Learning for Robotic Manipulation with Asynchronous Policy updates is a good example of the same.Other applications of RL include text summarization engines, dialog agents (text, speech) which can learn from user interactions and improve with time, learning optimal treatment policies in healthcare and RL based agents for online stock trading."
+								],
+					"context":[
+									""
+								]
+				},
+				{
+					"tag":"resources to learn reinforcement learning",
+					"patterns":[
+									"how can i get stareted with reinforcement learning",
+									"what are the resources that one can avial to learn reinforcement learning",
+									"what are some of the tutorials and books available for reinforcement learning",
+									"name a book to learn reinforcement learning"
+								],
+					"responses":[
+"Reinforcement Learning-An Introduction​, a book by the father of Reinforcement Learning- Richard Sutton​ and his doctoral advisor ​Andrew Barto​. An online draft of the book is available here http://incompleteideas.net/book/the-book-2nd.html Teaching material​from ​David Silver​ including video lectures is a great introductory course on RL. Here’s another ​technical tutorial​ on RL by ​Pieter Abbeel​ and ​John Schulman​ (Open AI/ Berkeley AI Research Lab). For getting started with building and testing RL agents, This blog​ on how to train a Neural Network ATARI Pong agent with Policy Gradients from raw pixels by​ Andrej Karpathy​ will help you get your first Deep Reinforcement Learning agent up and running in just 130 lines of Python code. "
+								],
+					"context":[
+									""
+							   ]
+				},
+				{
+					"tag":"types of reinforcement learning",
+					"patterns":[
+									"what are the types of reinforcement learning",
+									"mention the different types of reinforcement learning",
+									"what are the different kinds of reinforcement learning"
+								],
+					"responses":[
+"Types of Reinforcement:​ There are two types of Reinforcement: 1.) Positive – Positive Reinforcement is defined as when an event, occurs due to a particular behavior, increases the strength and the frequency of the behavior. In other words, it has a positive effect on behavior. 2.) Negative – Negative Reinforcement is defined as strengthening of a behavior because a negative condition is stopped or avoided. "
+								],
+					"context":[
+								""
+								]
+				},
+				{
+					"tag":"advantages and disadvanatages of reinforcement learning",
+					"patterns":[
+									"what are the advantages and disadvantages of reinforcement learning",
+									"how reinforcement learning can be advanategeous and disadvantegeous",
+									"list some of the benefits and losses of using reinforcement learning"
+								],
+					"responses":[
+"Advantages of reinforcement learning are: 1.Maximizes Performance 2.Sustain Change for a long period of time 3.) Increases Behavior 4.)Provide defiance to minimum standard of performance. The disadvanatges are: 1.)Too much Reinforcement can lead to overload of states which can diminish the results 2.)It Only provides enough to meet up the minimum behavior "
+								],
+					"context":[
+								""
+							  ]
+				},
+				{
+					"tag":"why rl is hard",
+					"patterns":[
+									"why RL is hard",
+									"why reinforcement learning is hard to implement",
+									"why some people finds it tough to learn reinforcement learning"
+								],
+					"responses":[
+"You try to learn a function via incomplete information. f(x) = maximum expected ∞ ∑ t=0 rt + noise (E) + non-linearity (approximation issues, CV, stability) + many local optima (counter-intuitive results) + exploration / exploitation tradeoff for sampling"
+								],
+					"context":[
+								""
+							   ]
+				 },
+			
+				 {
+						"tag":"solution of cartpole problem",
+						"patterns":[
+										"propose a solution to the cartpole problem using reinforcement learning",
+										"how reinforcement learning can help in solving the cartpole problem",
+										"how cartpole problem can be resolved using reinforcement learning"
+									],
+						"responses":[
+"Since RL is a form of learning characterized by trial and error response to actions and its effect on the environment, it makes sense to model the cartpole system via RL, since the cartpole system is heavily subject to various parameter changes while having a clearly defined agent-action-environment-reward schema. The agent is the controller or algorithm which controls the movement of the cart. The action is the physical movement of the cartpole in response to various forces and torques following the swing-up phase.The environment is the physical setting of the cart pole in regard to the constrained area of the system. The reward is the ability of the cartpole to achieve sustained balance in its current state. We will now identify the specific actions and states of the cartpole problem."
+									],
+						"context":[
+									""
+								  ]
+				},
+				{
+						"tag":" 'action' in reinforcement learning",
+						"patterns":[
+										"what do you mean by action in reinforcement learning",
+										"what is the term 'action' means in reagrd to reinforcement learning",
+										"define action "
+									],
+						"responses":[
+										"All the possible moves that the agent can take."
+									],
+						"context":[
+									""
+									]
+				},
+				{
+					"tag":" 'agent' in reinforcement learning",
+					"patterns":[
+									"what is agent in reinforcement learning",
+									"what is the term reinforcement learning means in regards to reinforcement learning",
+									"define agent"
+							   ],
+					"responses":[
+" ​a hypothetical entity which performs actions in an environment to gain some reward."
+								],
+					"context":[
+									""
+								]
+				},
+				{
+					"tag":" 'value' in reinforcement learning",
+					"patterns":[
+									"what is the term 'value' means in regards to reinforcement learning",
+									"what is value in reinforcement learning",
+									"define value"
+								],
+					"responses":[
+"The expected long-term return with discount, as opposed to the short-term reward ​R​. ​Vπ(s)​, is defined as the expected long-term return of the current state ​s​ under policy ​π​."
+								],
+					"context":[
+								""
+							  ]
+				},
+				{
+					"tag":"q-value or action-value",
+					"patterns":[
+									"what do you mean by action value",
+									"what do you mean by q-value",
+									"what is q-value or action-value in the context of reinforcement learning",
+									"what is q-value or action-value in reinforcement learning"
+								],
+					"responses":[
+"-Q-value is similar to Value, except that it takes an extra parameter, the current action ​a​. ​Qπ(s, a) refers to the long-term return of the current state ​s​, taking action ​a​ under policy ​π​. "
+								],
+					"context":[
+								""
+							  ]
+				},
+				{
+					"tag":"value-based learning",
+					"patterns":[
+									"what is value-based learning",
+									"what is value-based learning in reinforcement learning",
+									"define value-based learning"
+								],
+					"responses":[
+" ​In a value-based reinforcement learning method, you try to maximize a value function ​V(s)​. As defined in the terminology previously, ​Vπ(s)​ is the expected long-term return of the current state ​s​ under policy ​π​. Thus, ​V(s)​ is the value of reward which the agent expects to gain in the future upon starting at that state ​s​."
+								],
+					"context":[
+								""
+							   ]
+				},
+				{
+					"tag":"policy-based reinforcement learning",
+					"patterns":[
+									"define policy-based reinforcement learning",
+									"what is policy-based reinforcement learning",
+									"what do you mean by policy-based reinforcement learning"
+								],
+					"responses":[
+" ​in a policy-based reinforcement learning method, you try to come up with a policy such that the action performed at each state is optimal to gain maximum reward in the future. Here, no value function is involved. We know that the policy ​π​ determines the next action ​a​ at any state ​s​. There are two types of policy-based RL methods - 1.)Deterministic: ​at any state ​s​, the same action ​a​ is produced by the policy ​π​. 2.) Stochastic: ​each action has a certain probability"
+								],
+					"context":[
+								""
+								]
+				},
+				{
+					"tag":"model-based learning",
+					"patterns":[
+									"what is model-based learning",
+									"define model-based learning",
+									"what does the term model-based learning means"
+								],
+					"responses":[
+" ​In this type of reinforcement learning, you create a virtual model for each environment, and the agent learns to perform in that specific environment. Since the model differs for each environment, there is no singular solution or algorithm for this type"
+								],
+					"context":[
+									""
+								]
+				},
+				{"tag": "kernel SVM",
+         "patterns": ["defnition of kernel SVM", "what do you mean by kernel SVM", "what is the meaning of kernel SVM","kernel SVM"],
+         "responses": ["Kernel SVM is the abbreviated version of kernel support vector of machine. Kernel methods are a class of algorithms for pattern analysis and the most common one of the kernel SVM."],
+         "context": [""]
+        },
+	{"tag": "Recommended Systems",
+         "patterns": ["defnition of Recommended Systems", "what do you mean by Recommended Systems", "what is the meaning of Recommended Systems","Recommended Systems"],
+         "responses": ["Recommended Systems is a sub directory of information filtering systems, which predicts the preference or rankings offered by a user to a product. Recommendations are widely used in movies, news, research articles, products, social tips, music, etc."],
+         "context": [""]
+        },
+	{"tag": "Overfitting in laymen term",
+         "patterns": ["defnition of Overfitting in laymen term", "what do you mean by Overfitting in laymen term", "what is the meaning of Overfitting in laymen term","Overfitting in laymen term"],
+         "responses": ["Overfitting is a problem occurred when we have low error in the training set. But produces high error in test or unseen data."],
+         "context": [""]
+        },
+	{"tag": "Underfitting in laymen term",
+         "patterns": ["defnition of Underfitting in laymen term", "what do you mean by Underfitting in laymen term", "what is the meaning of Underfitting in laymen term","Underfitting in laymen term"],
+         "responses": ["Underfitting is a problem, when we have low error in both training set and the testing set. Few algorithms works better for interpretations. But fails for better predictions."],
+         "context": [""]
+        },
+	{"tag": "Curse of dimensionality",
+         "patterns": ["defnition of Curse of dimensionality", "what do you mean by Curse of dimensionality", "what is the meaning of Curse of dimensionality","Curse of dimensionality"],
+         "responses": ["COD is state which is commonly referred to lack of intuitive understanding of multiple dimensions. If a user wants to produce better understanding on data COD will make limitations."],
+         "context": [""]
+        },
+	{"tag": "data normalization",
+         "patterns": ["defnition of data normalization", "what do you mean by data normalization", "what is the meaning of data normalization","data normalization"],
+         "responses": ["Data normalization is a common practice to get the data features weighted equally. It causes to lose data interpretability."],
+         "context": [""]
+        },
+	{"tag": "clustering in short",
+         "patterns": ["defnition of clustering in short", "what do you mean by clustering in short", "what is the meaning of clustering in short","clustering in short"],
+         "responses": ["Clustering technique is a segmentation process. It works whenever we don’t have the target variable and still wanted to have a groups created."],
+         "context": [""]
+        },
+	{"tag": "EDA",
+         "patterns": ["defnition of EDA", "what do you mean by EDA", "what is the meaning of EDA","EDA"],
+         "responses": ["EDA which refers to Exploratory Data Analysis is a process to understand the data prior getting it into machine learning pipeline."],
+         "context": [""]
+        },
+	{"tag": "avoid Bias",
+         "patterns": ["avoid Bias", "how to avoid Bias", "avoiding Bias"],
+         "responses": ["Bias can cause to feel or show inclination or prejudice for or against someone or something. Avoiding bias in machine learning is very important, and the last thing we would want is to create a model which will most of the times/always classify a non-defective product as a defective one."],
+         "context": [""]
+        },
+	{"tag": "Z Score",
+         "patterns": ["defnition of Z Score", "what do you mean by Z Score", "what is the meaning of Z Score","Z Score"],
+         "responses": ["The z-score is the standard distortion count from a data point on average. But technically this is a source of how many constant changes are above or above the population. A z-score is known as a fixed value and can be placed in a normal distribution ramp. It eliminates values from the database that are lower than Z times 3 times."],
+         "context": [""]
+        },
+	{"tag": "odds ratio",
+         "patterns": ["defnition of odds ratio", "what do you mean by odds ratio", "what is the meaning of odds ratio","odds ratio"],
+         "responses": ["The odds ratio is the odds within two groups. For example, let’s pretend that we are trying to determine the effectiveness of medicine. We administered the medication to the ‘intervention’ organization and a position to the ‘control’ group."],
+         "context": [""]
+        },
+	{"tag": "classification problems",
+         "patterns": ["Why is accuracy not a good model for classification problems", "classification problems"],
+         "responses": ["Accuracy is not a good basis for distribution problems because it provides equal significant value to both false positives and false negatives dataset value. Accuracy provides equal quality to both cases and cannot distinguish between them."],
+         "context": [""]
+        },
+	{"tag": "trade-off between accuracy and interpretability",
+         "patterns": ["compromise between accuracy and interpretability", "trade-off between accuracy and interpretability"],
+         "responses": ["There needs to be a trade-off between accuracy and interpretability. Neural networks spit out the best possible result, and we can’t ignore that just because we don’t understand the internal functioning of the model."],
+         "context": [""]
+        },
+	{"tag": "missing data",
+         "patterns": ["missing data", "Is missing data is just blanks", "Is blanks is just missing data","does blanks is just missing data"],
+         "responses": ["No. Not only the blanks, data points which has NA, NULL and also sometimes the corrupted data that has been recorded by mistake or given improper data by purpose."],
+         "context": [""]
+        },
+	{"tag": "gradient descent methods converge",
+         "patterns": ["gradient descent methods converge", "do gradient descent methods converge to same point"],
+         "responses": ["No, they do not because in some cases it reaches an local minima or a local optima points. You don’t reach to the global optima point. It depends on the data and starting the conditions."],
+         "context": [""]
+        },
+        {
+			"tag": "PATTERN RECOGNITION",
+			"patterns": [
+				"In what areas Pattern Recognition is used?",
+				"areas where pattern recognition can be used",
+				"applications of pattern recognition"
+			],
+			"responses": [
+				"Pattern Recognition can be used in Computer Vision, Speech Recognition, Data Mining, Statistics, Informal Retrieval, Bio-Informatics"
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "genetic programming",
+			"patterns": [
+				"what is genetic programming",
+				"define genetic programming"
+			],
+			"responses": [
+				"Genetic programming is one of the two techniques used in machine learning. The model is based on the testing and selecting the best choice among a set of results."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": " Inductive Logic Programming",
+			"patterns": [
+				"what is Inductive Logic Programming",
+				"define inductive logic programming"
+			],
+			"responses": [
+				"  Inductive Logic Programming (ILP) is a subfield of machine learning which uses logical programming representing background knowledge and examples."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "model selection",
+			"patterns": [
+				"What is Model Selection in Machine Learning?",
+				"define model selection"
+			],
+			"responses": [
+				" The process of selecting models among different mathematical models, which are used to describe the same data set is known as Model Selection."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "calibration in Supervised Learning",
+			"patterns": [
+				"What are the two methods used for the calibration in Supervised Learning?",
+				"two methods used for calibration"
+			],
+			"responses": [
+				" The two methods used for predicting good probabilities in Supervised Learning are Platt Calibration, Isotonic Regression"
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "overfitting",
+			"patterns": [
+				"Which method is frequently used to prevent overfitting?",
+				"method used to prevent overfitting?"
+			],
+			"responses": [
+				" When there is sufficient data ‘Isotonic Regression’ is used to prevent an overfitting issue."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": " difference between heuristic for rule learning and heuristics",
+			"patterns": [
+				"What is the difference between heuristic for rule learning and heuristics for decision trees?",
+				"state the difference between heuristic for rule learning and heuristics for decision trees"
+			],
+			"responses": [
+				"The difference is that the heuristics for decision trees evaluate the average quality of a number of disjointed sets while rule learners only evaluate the quality of the set of instances that is covered with the candidate rule."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "  Perceptron",
+			"patterns": [
+				"  What is Perceptron in Machine Learning?",
+				"  define perceptron in machine learning"
+			],
+			"responses": [
+				"In Machine Learning, Perceptron is an algorithm for supervised classification of the input into one of several possible non - binary output "
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": " components of Bayesian logic program",
+			"patterns": [
+				"   Explain the two components of Bayesian logic program?",
+				"what are the types of bayesian logic program?"
+			],
+			"responses": [
+				"Bayesian logic program consists of two components. The first component is a logical one ; it consists of a set of Bayesian Clauses, which captures the qualitative structure of the domain.The second component is a quantitative one, it encodes the quantitative information about the domain."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "bayesian networks",
+			"patterns": [
+				"  What are Bayesian Networks?",
+				"define bayesiann networks"
+			],
+			"responses": [
+				"Bayesian Network is used to represent the graphical model for probability relationship among a set of variables."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "Lazy learning algorithm",
+			"patterns": [
+				"Why instance based learning algorithm sometimes referred as Lazy learning algorithm?"
+			],
+			"responses": [
+				"Instance based learning algorithm is also referred as Lazy learning algorithm as they delay thE induction or generalization process until classification is performed."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "Support Vector Machine",
+			"patterns": [
+				"What are the two classification methods that SVM ( Support Vector Machine) can handle?",
+				"classification methods that SVM can handle"
+			],
+			"responses": [
+				"Combining binary classifiers, Modifying binary to incorporate multiclass learning."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "cross-validation?",
+			"patterns": [
+				"  What is cross-validation?",
+				"define cross-validation"
+			],
+			"responses": [
+				"Cross-validation is essentially a technique used to assess how well a model performs on a new independent dataset.The simplest example of cross - validation is when you split your data into two groups: training data and testing data, where you use the training data to build the model and the testing data to test the model."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "ensemble learning?",
+			"patterns": [
+				"  when can we use ensemble learning?",
+				"applications of ensamble learning"
+			],
+			"responses": [
+				"Ensemble learning is used when you build component classifiers that are more accurate and independent from each other."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "  basic data structures",
+			"patterns": [
+				"What are the basic data structures and libraries of Python used in Machine Learning",
+				"basic data structures of python used in ML"
+			],
+			"responses": [
+				" Data structures - Array, Linked List, Binary Tree, Balanced Tree Libraries– NumPy, SciPy, Scikit Learn, Theano, TensorFlow, Keras, PyTorch, Pandas, Matplotlib "
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": " Types of machine learning",
+			"patterns": [
+				"mention the types of machine learning",
+				"what are the different types of machine learning techniques"
+			],
+			"responses": [
+				"Various types of machine learning are -Supervised Learning (Task driven), Unsupervised Learning (Data Driven),  Reinforcement Learning (Learning from errors)"
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "Hypothesis Generation",
+			"patterns": [
+				"What is hypothesis generation",
+				"define hypothesis generation"
+			],
+			"responses": [
+				"Hypothesis generation is a process of creating a set of features which could influence the target variable given a confidence interval (taken as 95% all the time). We can do this before looking at the dataset to avoid biased thoughts. This step often helps in creating new features."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "Data Wrangling",
+			"patterns": [
+				"what is data wrangling?",
+				"define data wrangling?"
+			],
+			"responses": [
+				" Data Wrangling is the first step we take while creating a Machine Learning model. This is the main step in which we prepare data for a Machine Learning algorithm.This step is very crucial and takes up to 60 to 80 percent of time."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "labeled and unlabeled data",
+			"patterns": [
+				"What is the difference between Labeled and Unlabeled data?",
+				"differentiate between labeled and unlabeled data."
+			],
+			"responses": [
+				"Typically, unlabeled data consists of samples of natural or human-created artifacts that we can obtain relatively easily from the world. Some examples of unlabeled data might include photos, audio recordings, videos, news articles etc.Labeled data typically takes a set of unlabeled data and augments each piece of that unlabeled data with some sort of meaningful tag,label, or class that is somehow informative or desirable to know. For example, labels for the above types of unlabeled data might be whether this photo contains a horse or a cow, which words were uttered in this audio recording, what type of action is being performed in this video, what the topic of this news article is etc."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "features and labels",
+			"patterns": [
+				"  What do you mean by Features and Labels in the dataset?",
+				"define features and labels"
+			],
+			"responses": [
+				"  Label: Labels are referred to as the final output. The output classes can also be considered as labels.When data scientists speak of labeled data what they mean is a group of samples which have been tagged to one or more labels. Feature: Features are defined as individual independent variables that act as input. Prediction models use features to make predictions.Moreover, you can also obtain new features from old features using a feature engineering method. Example - suppose we want to categorize our friends by their weight and height into different groups like obese, fit, underweight.Here, the inputs are weight and height which acts as a feature and the group names(fit, obese, underweight) which are the final outcome is the label."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "Noise",
+			"patterns": [
+				" What do you mean by Noise in the dataset? ",
+				"define noise in dataset",
+				"define features and labels"
+			],
+			"responses": [
+				" Noise is unwanted data items, features or records which don’t help in explaining the feature itself, or the relationship between feature & target.Noise often causes the algorithms to miss out patterns in the data "
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": " imbalanced datasheet",
+			"patterns": [
+				" What do you mean by Imbalanced Datasheet?",
+				"define imbalanced datasheet",
+				"how does imbalanced datasheet work?"
+			],
+			"responses": [
+				"  Imbalanced dataset is relevant primarily in the context of supervised machine learning involving two or more classes. Imbalance means that the number of data points available for different the classes is different: If there are two classes, then balanced data would mean 50 % points for each of the class.For most machine learning techniques, little imbalance is not a problem.So, if there are 60 % points for one class and 40 % for the other class, it should not cause any significant performance degradation.Only when the class imbalance is high, e.g .90 % points for one class and 10 % for the other, standard optimization criteria or performance measures may not be as effective and would need modification."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "Linear Discriminant Analysis",
+			"patterns": [
+				"what is LDA?",
+				"DEFINE LDA."
+			],
+			"responses": [
+				"  Linear Discriminant Analysis or LDA is a dimensionality reduction technique. It is used as a pre - processing step in Machine Learning and applications of pattern classification.The goal of LDA is to project the features in higher dimensional space onto a lower - dimensional space in order to avoid the curse of dimensionality and also reduce resources and dimensional costs."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": " Gradient Descent",
+			"patterns": [
+				"DEFINE GRADIENT Descent",
+				"what is gradient descent"
+			],
+			"responses": [
+				"  Gradient descent is an optimization algorithm used to minimize some function by iteratively moving in the direction of steepest descent as defined by the negative of the gradient. In machine learning, we use gradient descent to update the parameters of our model."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": " Regularization",
+			"patterns": [
+				"   What is Regularization?",
+				"define regularization"
+			],
+			"responses": [
+				" The word regularize means to make things regular or acceptable. This is exactly why we use it for.Regularizations are techniques used to reduce the error by fitting afunction appropriately on the given training set and avoid overfitting."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "  Regularization in Machine Learning",
+			"patterns": [
+				" When should one use Regularization in Machine Learning?"
+			],
+			"responses": [
+				" At times when the model begins to underfit or overfit, regularization becomes necessary. It is a regression that diverts or regularizes the coefficient estimates towards zero.It reduces flexibility and discourages learning in a model to avoid the risk of overfitting.The model complexity is reduced and it becomes better at predicting."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": " Classification model",
+			"patterns": [
+				" What is Classification model?",
+				" define classification model"
+			],
+			"responses": [
+				" A classification model tries to draw some conclusion from the input values given for training.It will predict the class labels / categories for the new data."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": " issues to consider in supervised learning",
+			"patterns": [
+				"What are the major issues to consider in supervised learning?",
+				"disadvantages of supervised learning"
+			],
+			"responses": [
+				"There are four major issues to consider in supervised learning:Bias - variance tradeoff, Function complexity and amount of training data, Dimensionality of the input space, Noise in the output values "
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "PATTERN RECOGNITION",
+			"patterns": 
+			[
+				"In what areas Pattern Recognition is used?",
+				"areas where pattern recognition can be used",
+				"applications of pattern recognition"
+			],
+			"responses": 
+			[
+				"Pattern Recognition can be used in Computer Vision, Speech Recognition, Data Mining, Statistics, Informal Retrieval, Bio-Informatics"
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "genetic programming",
+			"patterns": 
+			[
+				"what is genetic programming",
+				"define genetic programming"
+			],
+			"responses": 
+			[
+				"Genetic programming is one of the two techniques used in machine learning. The model is basedon the testing and selecting the best choice among a set of results."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": " Inductive Logic Programming",
+			"patterns": 
+			[
+				"what is Inductive Logic Programming",
+				"define inductive logic programming"
+			],
+			"responses": 
+			[
+				"  Inductive Logic Programming (ILP) is a subfield of machine learning which uses logicalprogramming representing background knowledge and examples."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "model selection",
+			"patterns": 
+			[
+				"What is Model Selection in Machine Learning?",
+				"define model selection"
+			],
+			"responses": 
+			[
+				" The process of selecting models among different mathematical models, which are used to describe the same data set is known as Model Selection."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "calibration in Supervised Learning",
+			"patterns": 
+			[
+				"What are the two methods used for the calibration in Supervised Learning",
+				"two methods used for calibration"
+			],
+			"responses": 
+			[
+				" The two methods used for predicting good probabilities in Supervised Learning are Platt Calibration, Isotonic Regression"
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "overfitting",
+			"patterns": 
+			[
+				"Which method is frequently used to prevent overfitting",
+				"method used to prevent overfitting?"
+			],
+			"responses": 
+			[
+				" When there is sufficient data ‘Isotonic Regression’ is used to prevent an overfitting issue."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": " difference between heuristic for rule learning and heuristics",
+			"patterns": 
+			[
+				"  What is the difference between heuristic for rule learning and heuristics for decision trees?",
+				"state the difference between heuristic for rule learning and heuristics for decision trees"
+			],
+			"responses": 
+			[
+				"The difference is that the heuristics for decision trees evaluate the average quality of a number of disjointed sets while rule learners only evaluate the quality of the set of instancethat is covered with the candidate rule."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "  Perceptron",
+			"patterns": 
+			[
+				"  What is Perceptron in Machine Learning",
+				"  define perceptron in machine learning"
+			],
+			"responses": 
+			[
+				"In Machine Learning, Perceptron is an algorithm for supervised classification of the input into one of several possible non-binary output"
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": " components of Bayesian logic program",
+			"patterns": 
+			[
+				"   Explain the two components of Bayesian logic program?",
+				"what are the types of bayesian logic program?"
+			],
+			"responses": 
+			[
+				"Bayesian logic program consists of two components. The first component is a logical one ; itconsists of a set of Bayesian Clauses, which captures the qualitative structure of the domain. The second component is a quantitative one, it encodes the quantitative information about the domain."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "bayesian networks",
+			"patterns": 
+			[
+				"  What are Bayesian Networks",
+				"define bayesiann networks"
+			],
+			"responses": 
+			[
+				"Bayesian Network is used to represent the graphical model for probability relationship among a set of variables."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "Lazy learning algorithm",
+			"patterns": 
+			[
+				"Why instance based learning algorithm sometimes referred as Lazy learning algorithm?"
+			],
+			"responses": 
+			[
+				"Instance based learning algorithm is also referred as Lazy learning algorithm as they delay the induction or generalization process until classification is performed."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "Support Vector Machine",
+			"patterns": 
+			[
+				"What are the two classification methods that SVM ( Support Vector Machine) can handle?",
+				"classification methods that SVM can handle"
+			],
+			"responses": 
+			[
+				"Combining binary classifiers, Modifying binary to incorporate multiclass learning."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "cross-validation?",
+			"patterns": 
+			[
+				"  What is cross-validation?",
+				"define cross-validation"
+			],
+			"responses": 
+			[
+				"Cross-validation is essentially a technique used to assess how well a model performs on a newi ndependent dataset. The simplest example of cross-validation is when you split your data into two groups: training data and testing data, where you use the training data to build the model and  the testing data to test the model."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "ensemble learning?",
+			"patterns": 
+			[
+				"  when can we use ensemble learning",
+				"applications of ensamble learning"
+			],
+			"responses": 
+			[
+				"Ensemble learning is used when you build component classifiers that are more accurate and independent from each other."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "  basic data structures",
+			"patterns": 
+			[
+				"What are the basic data structures and libraries of Python used in Machine Learning",
+				"basic data structures of python used in ML"
+			],
+			"responses": 
+			[
+				" Data structures - Array, Linked List, Binary Tree, Balanced Tree Libraries – NumPy, SciPy, Scikit Learn, Theano, TensorFlow, Keras, PyTorch, Pandas, Matplotlib"
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": " Types of machine learning",
+			"patterns": 
+			[
+				"mention the types of machine learning",
+				"what are the different types of machine learning techniques"
+			],
+			"responses": 
+			[
+				"Various types of machine learning are -Supervised Learning (Task driven), Unsupervised Learning (Data Driven),  Reinforcement Learning (Learning from errors)"
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "Hypothesis Generation",
+			"patterns": 
+			[
+				"What is hypothesis generation",
+				"define hypothesis generation"
+			],
+			"responses": 
+			[
+				"Hypothesis generation is a process of creating a set of features which could influence the target variable given a confidence interval (taken as 95% all the time). We can do this before looking at the dataset to avoid biased thoughts. This step often helps in creating new features."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "Data Wrangling",
+			"patterns": 
+			[
+				"what is data wrangling",
+				"define data wrangling?"
+			],
+			"responses": 
+			[
+				" Data Wrangling is the first step we take while creating a Machine Learning model. This is the main step in which we prepare data for a Machine Learning algorithm. This step is very crucial and takes up to 60 to 80 percent of time."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "labeled and unlabeled data",
+			"patterns": 
+			[
+				"What is the difference between Labeled and Unlabeled data?",
+				"differentiate between labeled and unlabeled data."
+			],
+			"responses": 
+			[
+				"  Typically, unlabeled data consists of samples of natural or human-created artifacts that wecan obtain relatively easily from the world. Some examples of unlabeled data might include photos, audio recordings, videos, news articles etc. Labeled data typically takes a set of unlabeled data and augments each piece of that unlabeled data with some sort of meaningful 'tag', 'label', or 'class' that is somehow informative or desirable to know. For example, labels for the above types of unlabeled data might be whether this photo contains a horse or a cow, which words were uttered in this audio recording, what type of action is being performed in this video, what the topic of this news article is etc."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "features and labels",
+			"patterns": 
+			[
+				"  What do you mean by Features and Labels in the dataset?",
+				"define features and labels"
+			],
+			"responses": 
+			[
+				"  Label: Labels are referred to as the final output. The output classes can also be considered as labels. When data scientists speak of labeled data what they mean is a group of samples whichhave been tagged to one or more labels.Feature: Features are defined as individual independent variables that act as input. Prediction models use features to make predictions. Moreover, you can also obtain new features from old features using a feature engineering method. Example- suppose we want to categorize our friends by their weight and height into different groups like obese, fit, underweight. Here, the inputs are weight and height which acts as a feature and the group names (fit, obese, underweight) which are the final outcome is the label. "
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "Noise",
+			"patterns": 
+			[
+				" What do you mean by Noise in the dataset? ",
+				"define noise in dataset",
+				"define features and labels"
+			],
+			"responses": 
+			[
+				" Noise is unwanted data items, features or records which don’t help in explaining the feature itself, or the relationship between feature & target. Noise often causes the algorithms to miss out patterns in the data  "
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": " imbalanced datasheet",
+			"patterns": 
+			[
+				" What do you mean by Imbalanced Datasheet?",
+				"define imbalanced datasheet",
+				"how does imbalanced datasheet work?"
+			],
+			"responses": 
+			[
+				"  Imbalanced dataset is relevant primarily in the context of supervised machine learninginvolving two or more classes.Imbalance means that the number of data points available for different the classes is different:If there are two classes, then balanced data would mean 50% points for each of the class. Formost machine learning techniques, little imbalance is not a problem. So, if there are 60% points for one class and 40% for the other class, it should not cause any significant performance degradation. Only when the class imbalance is high, e.g. 90% points for one class and 10% for the other, standard optimization criteria or performance measures may not be as effective and would need modification."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "Linear Discriminant Analysis",
+			"patterns": 
+			[
+				"what is LDA?",
+				"DEFINE LDA."
+			],
+			"responses": 
+			[
+				"  Linear Discriminant Analysis or LDA is a dimensionality reduction technique. It is used as a pre-processing step in Machine Learning and applications of pattern classification. The goal of LDA is to project the features in higher dimensional space onto a lower-dimensional space in order to avoid the curse of dimensionality and also reduce resources and dimensional costs. "
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": " Gradient Descent",
+			"patterns": 
+			[
+				"DEFINE GRADIENT Descent",
+				"what is gradient descent"
+			],
+			"responses": 
+			[
+				"  Gradient descent is an optimization algorithm used to minimize some function by iteratively moving in the direction of steepest descent as defined by the negative of the gradient. In machine learning, we use gradient descent to update the parameters of our model."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": " Regularization",
+			"patterns": 
+			[
+				"   What is Regularization",
+				"define regularization"
+			],
+			"responses": 
+			[
+				" The word regularize means to make things regular or acceptable. This is exactly why we useit for. Regularizations are techniques used to reduce the error by fitting a function appropriately on the given training set and avoid overfitting."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "  Regularization in Machine Learning",
+			"patterns": 
+			[
+				" When should one use Regularization in Machine Learning?"
+			],
+			"responses": 
+			[
+				" At times when the model begins to underfit or overfit, regularization becomes necessary. It is a regression that diverts or regularizes the coefficient estimates towards zero. It reduces flexibility and discourages learning in a model to avoid the risk of overfitting. The model complexity is reduced and it becomes better at predicting. "
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": " Classification model",
+			"patterns": 
+			[
+				" What is Classification model",
+				" define classification model"
+			],
+			"responses": 
+			[
+				" A classification model tries to draw some conclusion from the input valuesgiven for training. It will predict the class labels/categories for the new data."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": " issues to consider in supervised learning",
+			"patterns": 
+			[
+				"What are the major issues to consider in supervised learning",
+				"disadvantages of supervised learning"
+			],
+			"responses": 
+			[
+				"There are four major issues to consider in supervised learning: Bias-variance tradeoff, Function complexity and amount of training data, Dimensionality of the input space, Noise in the output values "
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "algorithm is used best for supervised learning",
+			"patterns": 
+			[
+				" What algorithm is used best for supervised learning?",
+				"best algorithm for supervised learning"
+			],
+			"responses": 
+			[
+				"A wide range of supervised learning algorithms are available, each with its strengths and weaknesses. There is no single learning algorithm that works best on all supervised learning problems."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": " standard supervised learning",
+			"patterns": 
+			[
+				" In what ways can be standard supervised learning be generalized?",
+				"types of supervised learning"
+			],
+			"responses": 
+			[
+				"There are several ways in which the standard supervised learning problem canbe generalized: Semi-supervised learning: In this setting, the desired output values are provided only for a subset of the training data.The remaining data is labeled. Weak supervision: In this setting, noisy, limited, or imprecise sources are used to provide supervision signal for labeling training data."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "  applications of supervised learning",
+			"patterns": 
+			[
+				" Give some applications of supervised learning.",
+				" uses of supervised learning"
+			],
+			"responses": 
+			[
+				"   Some applications of supervised learning are -Bioinformatics,spam detection,voice recognition, pattern recognition"
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "     Support Vector Machine",
+			"patterns": 
+			[
+				" Discuss about Support Vector Machine?",
+				" define support vector machine"
+			],
+			"responses": 
+			[
+				"In this algorithm, we plot each data item as a point in n-dimensional space (where n is a number of features you have) with the value of each feature being the value of a particular coordinate. "
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "advantages of supervised learning",
+			"patterns": 
+			[
+				" What are the advantages of supervised learning?",
+				" uses of supervised learning "
+			],
+			"responses": 
+			[
+				"Advantages of supervised learning areSupervised learning allows you to collect data or produce a data output from the previous experience Helps you to optimize performance criteria using experience Supervised machine learning helps you to solve various types of real-world computation problems. "
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": " disadvantages of supervised learning",
+			"patterns": 
+			[
+				"  What are the disadvantages of supervised learning?",
+				"demerits of supervised learning"
+			],
+			"responses": 
+			[
+				"Disadvantages of supervised learning areDecision boundary might be overtrained if your training set which doesn't have examples that you want to have in a class You need to select lots of good examples from each class while you are training the classifier."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "   Decision Trees",
+			"patterns": 
+			[
+				"Discuss about Decision Trees ",
+				"define decision trees"
+			],
+			"responses": 
+			[
+				"Decision Trees (DT) are trees that classify instances by sorting them based on feature values, where each node in a decision tree represents a feature in an instance to be classified, and each branch represents a value that the node can assume. Instances are classified starting at the root node and sorted based on their feature values"
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "K-Nearest Neighbor Algorithm",
+			"patterns": 
+			[
+				"Explain K-Nearest Neighbor Algorithm",
+				"define K-Nearest Neighbor Algorithm"
+			],
+			"responses": 
+			[
+				"The k-nearest neighbour kernel density estimation method is a special type of the kernel density estimation method with the local choice of thebandwidth. An advantage of this estimator is that smoothing varies according to the number of observations in a particular region. The crucial problem is how to estimate the value of the parameter k. K is a kernel function which satisfies ∫ K(x) dx = 1 "
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "neural networks algorithms",
+			"patterns": 
+			[
+				"define neural networks algorithms",
+				"What are the neural networks algorithms?"
+			],
+			"responses": 
+			[
+				"Neural nets take inspiration from the learning process occurring in human brains. They consists of an artificial network of functions, called parameters,which allows the computer to learn, and to fine tune itself, by analyzing new data. "
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "algorithms used by neural networks.",
+			"patterns": 
+			[
+				" Name some algorithms used by neural networks. ",
+				" what are the algorithms used for newral networks"
+			],
+			"responses": 
+			[
+				"Gradient descent,  Newton’s method, Conjugate gradient"
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "best practices for supervised learning",
+			"patterns": 
+			[
+				"   Mention best practices for supervised learning."
+			],
+			"responses": 
+			[
+				"Before doing anything else, you need to decide what kind of data is to be used as a training set.You need to decide the structure of the learned function and learning algorithm. Gathere corresponding outputs either from human experts or from measurements"
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "self supervised learning",
+			"patterns": 
+			[
+				"  What is self supervised learning",
+				"  Define self supervised learning"
+			],
+			"responses": 
+			[
+				"Self-supervised learning is a means for training computers to do tasks without humans providing labeled data (i.e., a picture of a dog accompanied by thelabel “dog”). It is a subset of unsupervised learning where outputs or goals are derived by machines that label, categorize, and analyze information on their own then draw conclusions based on connections and correlations"
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": " applications of self-supervised learning",
+			"patterns": 
+			[
+				"  what are the applications of self supervised learning?",
+				"what are the uses of self supervised learning"
+			],
+			"responses": 
+			[
+				"According to Yann Lecun, a computer scientist known for his impressive work in the ML field, the closest we have to self-supervised learning systems are the so-called “Transformers.” These are ML models that successfully use natural language processing (NLP) without the need for labeled datasets. They are capable of processing massive amounts of unstructured data and “transform” them into usable information for various purposes. The Transformers are behind Google’s BERT and Meena, OpenAI’s GPT2, and Facebook’s RoBERTa. "
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": " Polynomial Regression",
+			"patterns": 
+			[
+				"  define polynomial regression",
+				"what is polynomial regression",
+				"Give an overview of Polynomial Regression"
+			],
+			"responses": 
+			[
+				"Polynomial Regression is a form of linear regression in which the relationshipbetween the independent variable x and dependent variable y is modeled as an nth degree polynomial. Polynomial regression fits a nonlinear relationship between the value of x and the corresponding conditional mean of y, denoted E(y |x) "
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "using Polynomial Regression",
+			"patterns": 
+			[
+				"why should we use polinomial regression?",
+				"applications of polynomial regression"
+			],
+			"responses": 
+			[
+				"There are some relationships that a researcher will hypothesize is curvilinear. Clearly, such type of cases will include a polynomial term. Inspection of residuals. If we try to fit a linear model to curved data, a scatter plot of residuals (Y axis) on the predictor (X axis) will have patches of many positive residuals in the middle. Hence in such situation it is not appropriate. An assumption in usual multiple linear regression analysis is that all the independent variables are independent. In polynomial regression model, this assumption is not satisfied."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": " advantages of using Polynomial Regression over Linear Regression",
+			"patterns": 
+			[
+				"Mention some advantages of using Polynomial Regression over Linear Regression",
+				"what are the advantages of using Polynomial Regression over Linear Regression"
+			],
+			"responses": 
+			[
+				"Broad range of function can be fit under it. Polynomial basically fits wide range of curvature. Polynomial provides the best approximation of the relationship between dependent and independent variable."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": " Ridge Regression technique",
+			"patterns": 
+			[
+				"Give an overview of Ridge Regression technique",
+				"what is ridge regression technique"
+			],
+			"responses": 
+			[
+				" Ridge Regression is a technique for analyzing multiple regression data that suffer from multicollinearity. When multicollinearity occurs, least squares estimates are unbiased, but their variances are large so they may be far from the true value. By adding a degree of bias to the regression estimates, ridge regression reduces the standard errors. It is hoped that the net effect will be to give estimates that are more reliable."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "importance of unsupervised learning",
+			"patterns": 
+			[
+				"how important is unsupervised learning in the context of deep learning",
+				"importance of unsupervised learning in the context of deep learning",
+				"what is the role of unsupervised learning in deep learning"
+			],
+			"responses": 
+			[
+				"Unsupervised learning is a machine learning technique, where we do not need to supervise the model. Instead, we need to allow the model to work on its own to discover information. It’s important to gain insight into the way the system behaves without supervision. For example, GAN, CNN, K-NN, etc.Deep learning can be either supervised or unsupervised. It all depends on how we want to use it. Deep learning is used for highly scalable datasets and algorithms which are complex for machine learning algorithms like SVM, Logistic Regression etc., to model. For example, Convolutional Neural Network (CNN) can be both supervised or unsupervised. If we want to classify images, we need to add dense layers and for classification, the training will be supervised. But, if we want to cluster images based on similarities of a group of images, we will extract the features using CNN and then use an unsupervised method like k-means or DBSCAN clustering."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "principle of Unsupervised Data Augmentation",
+			"patterns": 
+			[
+				"Explain the principle of unsupervised data augmentation",
+				"what is the wotrking principle of unsupervised data augmentation",
+				"what is uda"
+			],
+			"responses": 
+			[
+				"  Unsupervised Data Augmentation or UDA is a semi-supervised learning method which achieves state-of-the-art results on a wide variety of language and vision tasks. UDA is a method of semi-supervised learning, that reduces the need for labeled examples and better utilizes unlabeled ones"
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "use of auto encoder",
+			"patterns": 
+			[
+				"what is the use of auto encoders",
+				"why auto encoders are uased when we already have more powerful dimension reduction techniques such as pca",
+				"what is the advantage of auto encoders over pca ",
+				"why auto encoders are used",
+				"why auto encoders are used over pca"
+			],
+			"responses": 
+			[
+				"Both PCA and Autoencoders are dimensional reduction techniques but Autoencoders are used more for detecting anomalies than for reducing data. Using Autoencoder, we try to reconstruct our data and then use reconstruction error to identify anomalous data points. This reconstruction is something that PCA is not very good at, especially when you have non-linear relationships among variables. Autoencoders, on the other hand, can use deep architecture to learn complex non-linear relationships as well."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "PCA or auto encoder",
+			"patterns": 
+			[
+				"Which method extracts the better features for unsupervised learning: PCA or Auto Encoder",
+				"which is better at extracting features for unsupervised learning",
+				"which is better pca or auto encoder",
+				"which method is more prefferable to extract features of unsupervised learning",
+				"which method is good to implement features of unsupervised learning"
+			],
+			"responses": 
+			[
+				" PCA will result in slower processing compared with an Autoencoder"
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "use of unsupervised clustering models",
+			"patterns": 
+			[
+				"how can we use unsupervised clustering models for classification tasks",
+				"how can we implement unsupervised clustering models for classification tasks",
+				"how unsupervised clustering models are used for classiification task",
+				"use of unsupervised clustering models in classification tasks"
+			],
+			"responses": 
+			[
+				"For supervised learning we need to have a labeled data set. If not, it is good to run unsupervised learning algorithms for automatically labeling unlabeled data. Once the data is labelled using clustering algorithms, then it is possible to use supervised learning algorithms. For linking the two tasks a simple script can be written that connect the output of clustering as an input for the classification task."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "techniques for anomaly detection on a dataset",
+			"patterns": 
+			[
+				"mention some best techniques for anomaly detection on a dataset",
+				"what are some of the best techniques to detect anomalies for a adatset having normal as well as abnormal behaviour",
+				"What is the best unsupervised technique for Anomaly Detection for a dataset having normal as well as abnormal behaviour",
+				"which clustering algorithms are best for detecting anomalies on a dataset having normal as well as abnormal behaviours"
+			],
+			"responses": 
+			[
+				"We can use the following clustering algorithm - 1.)K-means/medoid 2.)Fuzzy c-means 3.)partition-based clustering"
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "need of unsupervised learning",
+			"patterns": 
+			[
+				"when do we need unsupervised learning",
+				"when do we use unsupervised learning the most",
+				"use of unsupervised learning"
+			],
+			"responses": 
+			[
+				" In unsupervised learning, we do not have a supervisor which tells us what is right and what is wrong i.e. we do not have input data with example output data where we want to learn the input/output relation. In general, we use unsupervised learning when we want to find general structures in our data. for example- major trends, a low-dimensional embedding or clustering."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "unsupervised learning algorithm for categorical data",
+			"patterns": 
+			[
+				"which algorithm of unsupervised machine learning can be applied to categorical data",
+				"name an algorithm based on unsupervised learning that can be used on categorical data",
+				"What are the unsupervised machine learning algorithms which can be applied on categorical data"
+			],
+			"responses": 
+			[
+				" K-means algorithm can be used to generate labelled/categorical of data "
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "types of clustering methods",
+			"patterns": 
+			[
+				"What are the different types of clustering methods",
+				"mention some clustering methods",
+				"list some of the different types of clustering methods"
+			],
+			"responses": 
+			[
+				"Different types of clustering methods are -   Density-based methods, Hierarchical based method, Partitioning methods, Grid-based methods"
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "Density based lagorithms",
+			"patterns": 
+			[
+				"explain how density based algorithm works",
+				"explain the working of density based algorithms",
+				"how density based algorithms works"
+			],
+			"responses": 
+			[
+				"These methods consider the clusters as the dense region having some similarity and different from the lower dense region of the space. These methods have good accuracy and ability to merge two clusters. Example:  DBSCAN (Density-Based Spatial Clustering of Applications with Noise), OPTICS (Ordering Points to Identify Clustering Structure) etc."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "hierarchical clustering based method",
+			"patterns": 
+			[
+				"how hierarchical based clustering algorithm works",
+				"explain the hierarchical based clustering algorithm",
+				"explain the working of hierarchical based clustering algorthm"
+			],
+			"responses": 
+			[
+				"The clusters formed in this method forms a tree-type structure based on the hierarchy. New clusters are formed using the previously formed one. It is divided into two categories:1.)Agglomerative (bottom up approach) 2.)Divisive (top down approach) for example: CURE (Clustering Using Representatives), BIRCH (Balanced Iterative Reducing Clustering and using Hierarchies) etc."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "partitioning clustering method",
+			"patterns": 
+			[
+				"explain the partitioning clustering methods",
+				"explain the working of partitioning clustering methods",
+				"how the partitioning clustering methods works"
+			],
+			"responses": 
+			[
+				" These methods partition the objects into k clusters and each partition forms one cluster. This method is used to optimize an objective criterion similarity function such as when the distance is a major parameter example K-means, CLARANS (Clustering Large Applications based upon Randomized Search) etc."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "grid-based clsutering methods",
+			"patterns": 
+			[
+				"explain the grid based clustering methods",
+				"how grid based methods works",
+				"explain the algorithms based on grid based clustering methods"
+			],
+			"responses": 
+			[
+				"In this method the data space is formulated into a finite number of cells that form a grid-like structure. All the clustering operation done on these grids are fast and independent of the number of data objects example STING (Statistical Information Grid), wave cluster, CLIQUE (Clustering in Quest) etc."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag":"use of KNN algorithm",
+			"patterns": 
+			[
+				"when do we use knn algorithm",
+				"when do we need knn algorithm",
+				"when it is prefferable to use knn algorithm"
+			],
+			"responses": 
+			[
+				"KNN can be used for both classification and regression predictive problems. However, it is more widely used in classification problems in the industry. To evaluate any technique, we generally look at 3 important aspects: 1. Ease to interpret output 2. Calculation time  3. Predictive Power. KNN algorithm fairs across all parameters of considerations. It is commonly used for its easy of interpretation and low calculation time."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "use of KNN algorithm",
+			"patterns": 
+			[
+				"when do we need knn algorithm",
+				"what is the use of knn algorithm",
+				"when is it prefferable to use knn algorithm"
+			],
+			"responses": 
+			[
+				"KNN can be used for both classification and regression predictive problems. However, it is more widely used in classification problems in the industry. To evaluate any technique, we  enerally look at 3 important aspects: 1. Ease to interpret output  2. Calculation time  3. Predictive Power.  KNN algorithm fairs across all parameters of considerations. It is commonly used for its easy of interpretation and low calculation time."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "working of knn algorithm",
+			"patterns": 
+			[
+				"how does the knn algorithm works",
+				"explain the working of knn algorithm",
+				"explain the knn algorithm"
+			],
+			"responses": 
+			[
+				" Let’s take a simple case to understand this algorithm. Lets say there is a spread of red circles (RC) and green squares (GS) and you intend to find out the class of the blue star (BS). BS can either be RC or GS and nothing else. The “K” in KNN algorithm is the nearest neighbor we wish to take the vote from. Let’s say K = 3. Hence, we will now make a circle with BS as the center just as big as to enclose only three datapoints on the plane. The three closest points to BS are all RC. Hence, with a good confidence level, we can say that the BS should belong to the class RC. Here, the choice became very obvious as all three votes from the closest neighbor went to RC. The choice of the parameter K is very crucial in this algorithm. Next, we will understand what are the factors to be considered to conclude the best K."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "disadvantages of knn algorithm",
+			"patterns": 
+			[
+				"what are the disadvantges of using knn algorithm",
+				"what can be the reasons for not using knn algorithm",
+				"list some of the disdavantages of knn algorithm"
+			],
+			"responses": 
+			[
+				" Disadvantages of KNN algorithm are: The algorithm gets significantly slower as the number of examples and/or predictors/independent variables increase."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "working of k-means algorithm",
+			"patterns": 
+			[
+				"explain the k-means algorithm",
+				"explain the working of k-means algorithm",
+				"how does the k-means algorithm works"
+			],
+			"responses": 
+			[
+				" To process the learning data, the K-means algorithm in data mining starts with a first group of randomly selected centroids, which are used as the beginning points for every cluster, and then performs iterative (repetitive) calculations to optimize the positions of the centroids It halts creating and optimizing clusters when either: 1.)The centroids have stabilized — there is no change in their values because the clustering has been successful. 2.)The defined number of iterations has been achieved."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "advantages of k-means algorithm",
+			"patterns": 
+			[
+				"what are some of the advanatges of k-means algorithm",
+				"mention some advanatges of k-means algorithm",
+				"what are some of the good points of using k-means algorithm",
+				"what are the advanatges of k-means algorithm"
+			],
+			"responses": 
+			[
+				" The advantages of K-means algorithm are -   1.)Relatively simple to implement.  2.)Scales to large data sets.  3.)Guarantees convergence. 4.)Can warm-start the positions of centroids.  5.)Easily adapts to new examples. 6.) Generalizes to clusters of different shapes and sizes, such as elliptical clusters."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "disadvantges of using k-means",
+			"patterns": 
+			[
+				"mention some of the disadavantages of k-means algorithm",
+				"list some diadvantages of k-means algorithm",
+				"what are the disadvantages of k-means algorithm",
+				"what can be the possible reasons for not using k-means algorithm"
+			],
+			"responses": 
+			[
+				" The disadvantages of K-means algorithm are: 1.) Clustering data of varying sizes and density. 2.) Choosing k manually. 3.) Clustering outliers: Centroids can be dragged by outliers, or outliers might get their own cluster instead of being ignored. Consider removing or clipping outliers before clustering. 4.)Scaling with number of dimensions: As the number of dimensions increases, a distancebased similarity measure converges to a constant value between any given examples. 4.)Reduce dimensionality either by using PCA on the feature data, or by using “spectral clustering” to modify the clustering algorithm."
+			],
+			"context": 
+			[
+				""
+			]
+		},
+		{
+			"tag": "advantages of knn algorithm",
+			"patterns": 
+			[
+				"what are the advanatges of knn algorithm",
+				"mention some of the advanatges of knn algorithm",
+				"what are the benefits of using knn algorithm",
+				"what are some of the characteristics that can be considered as advanatges of knn algorithm"
+			],
+			"responses": 
+			[
+				"The advantages of KNN algorithm are –  1.)The algorithm is simply and easy to implement, 2.)There’s no need to build a model, tune several parameters, or make additional assumptions 3.)The algorithm is versatile. It can be used for classification, regression, and search."
+			],
+			"context": 
+			[
+				""
+			]
+		}
+		
     ]
 }
