@@ -3,9 +3,9 @@
 Creating a simple Python chatbot using natural language processing and deep learning.
 
 <h2> TOOLS USED <h2>
-  - nltk libarary
-  - keras
-  - flask
+  - nltk libarary <br>
+  - keras <br>
+  - flask <br>
   
 <h2> MAIN STEPS <h2> 
   - getting the right data - we are storing the questions answers in an JSON format in a file - intents.json <br>
